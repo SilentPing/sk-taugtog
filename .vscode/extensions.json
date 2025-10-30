@@ -1,0 +1,26 @@
+{
+  "recommendations": [
+    // 🎨 THEME EXTENSIONS
+    "zhuangtongfa.material-theme",           // One Dark Pro
+    "dracula-theme.theme-dracula",            // Dracula Official
+    "enkia.tokyo-night",                      // Tokyo Night
+    "github.github-vscode-theme",             // GitHub Theme
+    "catppuccin.catppuccin-vsc",             // Catppuccin
+    
+    // 🎯 ICON THEMES
+    "pkief.material-icon-theme",              // Material Icon Theme
+    "vscode-icons-team.vscode-icons",         // VSCode Icons
+    
+    // ✨ UI ENHANCEMENTS
+    "oderwat.indent-rainbow",                 // Indent Rainbow
+    "aaron-bond.better-comments",             // Better Comments
+    "usernamehw.errorlens",                   // Error Lens
+    "johnpapa.vscode-peacock",                // Peacock
+    "kamikillerto.vscode-colorize",           // Colorize
+    
+    // 🔧 UTILITIES
+    "esbenp.prettier-vscode",                 // Prettier
+    "mhutchie.git-graph",                     // Git Graph
+    "naumovs.color-highlight"                 // Color Highlight
+  ]
+}
