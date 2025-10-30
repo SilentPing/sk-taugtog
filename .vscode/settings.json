@@ -1,0 +1,11 @@
+{
+  "workbench.colorTheme": "Dark+ (default dark)",
+  "workbench.iconTheme": "vs-seti",
+  "editor.fontSize": 14,
+  "editor.fontFamily": "'Fira Code', 'Cascadia Code', 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 1.6,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "terminal.integrated.fontSize": 13
+}
