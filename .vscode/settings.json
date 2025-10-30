@@ -1,11 +1,105 @@
 {
+  // ========================================
+  // 🎨 THEME & COLOR CUSTOMIZATION
+  // ========================================
   "workbench.colorTheme": "Dark+ (default dark)",
   "workbench.iconTheme": "vs-seti",
-  "editor.fontSize": 14,
-  "editor.fontFamily": "'Fira Code', 'Cascadia Code', 'Courier New', monospace",
+  "workbench.colorCustomizations": {
+    "editor.background": "#1e1e1e",
+    "sideBar.background": "#252526",
+    "activityBar.background": "#181818",
+    "statusBar.background": "#007acc",
+    "statusBar.noFolderBackground": "#68217a",
+    "titleBar.activeBackground": "#252526",
+    "titleBar.inactiveBackground": "#1e1e1e"
+  },
+
+  // ========================================
+  // ✏️ EDITOR APPEARANCE
+  // ========================================
+  "editor.fontSize": 15,
+  "editor.fontFamily": "'Fira Code', 'JetBrains Mono', 'Cascadia Code', 'Consolas', monospace",
   "editor.fontLigatures": true,
-  "editor.lineHeight": 1.6,
+  "editor.fontWeight": "400",
+  "editor.lineHeight": 1.7,
+  "editor.letterSpacing": 0.5,
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": "on",
-  "terminal.integrated.fontSize": 13
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 2,
+  
+  // ========================================
+  // 📐 LAYOUT & SPACING
+  // ========================================
+  "editor.padding.top": 16,
+  "editor.padding.bottom": 16,
+  "editor.lineNumbers": "on",
+  "editor.lineNumbersMinChars": 4,
+  "editor.glyphMargin": true,
+  "editor.folding": true,
+  "editor.foldingStrategy": "indentation",
+  "editor.showFoldingControls": "mouseover",
+  
+  // ========================================
+  // 🌈 SYNTAX HIGHLIGHTING ENHANCEMENTS
+  // ========================================
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairsHorizontal": "active",
+  "editor.guides.highlightActiveIndentation": true,
+  "editor.guides.indentation": true,
+  "editor.renderWhitespace": "selection",
+  "editor.renderLineHighlight": "all",
+  
+  // ========================================
+  // 🗺️ MINIMAP & OVERVIEW
+  // ========================================
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.maxColumn": 120,
+  "editor.minimap.showSlider": "mouseover",
+  "editor.minimap.size": "proportional",
+  "editor.overviewRulerBorder": false,
+  
+  // ========================================
+  // 📜 SCROLLING & SMOOTHNESS
+  // ========================================
+  "editor.smoothScrolling": true,
+  "editor.scrollbar.vertical": "auto",
+  "editor.scrollbar.horizontal": "auto",
+  "editor.scrollbar.verticalScrollbarSize": 10,
+  "editor.scrollbar.horizontalScrollbarSize": 10,
+  "workbench.list.smoothScrolling": true,
+  
+  // ========================================
+  // 🪟 WORKBENCH DESIGN
+  // ========================================
+  "workbench.sideBar.location": "left",
+  "workbench.activityBar.visible": true,
+  "workbench.statusBar.visible": true,
+  "workbench.editor.showTabs": true,
+  "workbench.editor.tabCloseButton": "right",
+  "workbench.editor.tabSizing": "fit",
+  "workbench.tree.indent": 20,
+  "workbench.tree.renderIndentGuides": "always",
+  
+  // ========================================
+  // 💻 TERMINAL STYLING
+  // ========================================
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "'JetBrains Mono', 'Cascadia Code', monospace",
+  "terminal.integrated.lineHeight": 1.4,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.smoothScrolling": true,
+  
+  // ========================================
+  // ✨ VISUAL EFFECTS & ANIMATIONS
+  // ========================================
+  "workbench.layoutControl.enabled": true,
+  "window.titleBarStyle": "custom",
+  "window.menuBarVisibility": "toggle",
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.filePath": "on",
+  "breadcrumbs.symbolPath": "on"
 }
